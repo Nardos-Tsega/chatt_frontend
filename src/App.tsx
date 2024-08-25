@@ -1,20 +1,17 @@
 import React from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { fontFamilies } from './utils/fontFamilies.ts';
+import Colors from './constants/Colors.ts';
+import OnboardingScreen from './screens/OnboardingScreen.tsx';
+import { enableScreens } from 'react-native-screens';
+import RootNavigator from './navigation/RootNavigator.tsx';
+
+enableScreens();
 
 function App(): React.JSX.Element {
+  
   return (
-  <View style={styles.container}>
-    <Text style={styles.regularText}>
-      This text uses the regular custom font.
-    </Text>
-    <Text style={styles.boldText}>
-      This text uses the bold custom font.
-    </Text>
-    <Text>
-      This text uses the bold custom font.
-    </Text>
-  </View>
+    <RootNavigator />
   );
 }
 
@@ -23,7 +20,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: Colors.white,
   },
   regularText: {
     fontFamily:  fontFamilies.BODONI.medium,
