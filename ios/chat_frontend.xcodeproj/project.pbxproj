@@ -15,6 +15,26 @@
 		7699B88040F8A987B510C191 /* libPods-chat_frontend-chat_frontendTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-chat_frontend-chat_frontendTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9AFA94969DFF16994704116B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = E1E97151CB88E5C4E43A27A3 /* PrivacyInfo.xcprivacy */; };
+		A0E45486E0194D3BB1D2274A /* BodoniModaSC_72pt-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 484BF8AD73C54804A1A4CA6F /* BodoniModaSC_72pt-Black.ttf */; };
+		2F41853D575B4F388F133F25 /* BodoniModaSC_72pt-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2C24EB8CE4040BF83EAFC25 /* BodoniModaSC_72pt-BlackItalic.ttf */; };
+		CC3A84C17FCD446EA98FAD1D /* BodoniModaSC_72pt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D530ABDC2564698B1EE0707 /* BodoniModaSC_72pt-Bold.ttf */; };
+		BACC224A3C094F03BBCDFC93 /* BodoniModaSC_72pt-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1CEA1A7A4314947BD59915F /* BodoniModaSC_72pt-BoldItalic.ttf */; };
+		16D11FD224DC49D98BB39994 /* BodoniModaSC_72pt-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9452DC8B275A4426AE112740 /* BodoniModaSC_72pt-ExtraBold.ttf */; };
+		AF7C10CEE9BA4A42B37DA68D /* BodoniModaSC_72pt-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFF862F74E7348B8861C61BD /* BodoniModaSC_72pt-ExtraBoldItalic.ttf */; };
+		664DA3FF0AA14B979A833DED /* BodoniModaSC_72pt-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83B9D189F4AA4051B28A83EA /* BodoniModaSC_72pt-Italic.ttf */; };
+		8A5DFA55D47E41768D7B3B8C /* BodoniModaSC_72pt-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E1AA0DFECA64811B460D965 /* BodoniModaSC_72pt-Medium.ttf */; };
+		8C9DEC8D19414CFFACEA9745 /* BodoniModaSC_72pt-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C50F9E6B013342EEB4D76F97 /* BodoniModaSC_72pt-MediumItalic.ttf */; };
+		F2C399D845D04D248307AA52 /* BodoniModaSC_72pt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A86C49955BC434C9DC2AEB5 /* BodoniModaSC_72pt-Regular.ttf */; };
+		4977E2D2436B45BF8A3A51C9 /* BodoniModaSC_72pt-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70467C5B77864120BB7F36A2 /* BodoniModaSC_72pt-SemiBold.ttf */; };
+		5BDEFA211A88471FA9C7C9B9 /* BodoniModaSC_72pt-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A8311407B44068D19CFC0 /* BodoniModaSC_72pt-SemiBoldItalic.ttf */; };
+		E2D01E1A384D4B0396FA9049 /* Lora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 788EA7E279CC4CABBCCBD298 /* Lora-Bold.ttf */; };
+		A27F0C8040D64484AF892F73 /* Lora-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 475E85EFB1EA412AB4904D55 /* Lora-BoldItalic.ttf */; };
+		164C89D5FC7F45D98AC2A27D /* Lora-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 13D49D345BF343C590EA5566 /* Lora-Italic.ttf */; };
+		B9271647DDCE457FBABA87AB /* Lora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB5795C01D904F9DA464BFDC /* Lora-Medium.ttf */; };
+		92C10690BB364DF5857C40EE /* Lora-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74403E01C2B44C2C9AF0651D /* Lora-MediumItalic.ttf */; };
+		CCD8B751F42B44789B0B845A /* Lora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFCA33CDA4FE49D998CA6808 /* Lora-Regular.ttf */; };
+		3577C3F26D7F44779813535B /* Lora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F937A6101C2B4B479C57F144 /* Lora-SemiBold.ttf */; };
+		EBC07FB4A8774A079852F0EF /* Lora-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75200349390C4FF59E82CD2E /* Lora-SemiBoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +67,26 @@
 		89C6BE57DB24E9ADA2F236DE /* Pods-chat_frontend-chat_frontendTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-chat_frontend-chat_frontendTests.release.xcconfig"; path = "Target Support Files/Pods-chat_frontend-chat_frontendTests/Pods-chat_frontend-chat_frontendTests.release.xcconfig"; sourceTree = "<group>"; };
 		E1E97151CB88E5C4E43A27A3 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = chat_frontend/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		484BF8AD73C54804A1A4CA6F /* BodoniModaSC_72pt-Black.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-Black.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2C24EB8CE4040BF83EAFC25 /* BodoniModaSC_72pt-BlackItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-BlackItalic.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9D530ABDC2564698B1EE0707 /* BodoniModaSC_72pt-Bold.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-Bold.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E1CEA1A7A4314947BD59915F /* BodoniModaSC_72pt-BoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-BoldItalic.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9452DC8B275A4426AE112740 /* BodoniModaSC_72pt-ExtraBold.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-ExtraBold.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FFF862F74E7348B8861C61BD /* BodoniModaSC_72pt-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-ExtraBoldItalic.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		83B9D189F4AA4051B28A83EA /* BodoniModaSC_72pt-Italic.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-Italic.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2E1AA0DFECA64811B460D965 /* BodoniModaSC_72pt-Medium.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-Medium.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C50F9E6B013342EEB4D76F97 /* BodoniModaSC_72pt-MediumItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-MediumItalic.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7A86C49955BC434C9DC2AEB5 /* BodoniModaSC_72pt-Regular.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-Regular.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		70467C5B77864120BB7F36A2 /* BodoniModaSC_72pt-SemiBold.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-SemiBold.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1D8A8311407B44068D19CFC0 /* BodoniModaSC_72pt-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "BodoniModaSC_72pt-SemiBoldItalic.ttf"; path = "../assets/fonts/BodoniModaSC_72pt-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		788EA7E279CC4CABBCCBD298 /* Lora-Bold.ttf */ = {isa = PBXFileReference; name = "Lora-Bold.ttf"; path = "../assets/fonts/Lora-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		475E85EFB1EA412AB4904D55 /* Lora-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Lora-BoldItalic.ttf"; path = "../assets/fonts/Lora-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		13D49D345BF343C590EA5566 /* Lora-Italic.ttf */ = {isa = PBXFileReference; name = "Lora-Italic.ttf"; path = "../assets/fonts/Lora-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FB5795C01D904F9DA464BFDC /* Lora-Medium.ttf */ = {isa = PBXFileReference; name = "Lora-Medium.ttf"; path = "../assets/fonts/Lora-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		74403E01C2B44C2C9AF0651D /* Lora-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Lora-MediumItalic.ttf"; path = "../assets/fonts/Lora-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CFCA33CDA4FE49D998CA6808 /* Lora-Regular.ttf */ = {isa = PBXFileReference; name = "Lora-Regular.ttf"; path = "../assets/fonts/Lora-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F937A6101C2B4B479C57F144 /* Lora-SemiBold.ttf */ = {isa = PBXFileReference; name = "Lora-SemiBold.ttf"; path = "../assets/fonts/Lora-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		75200349390C4FF59E82CD2E /* Lora-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Lora-SemiBoldItalic.ttf"; path = "../assets/fonts/Lora-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +167,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				B6819A5AD9C64D6F83608AAE /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,6 +181,34 @@
 				00E356EE1AD99517003FC87E /* chat_frontendTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B6819A5AD9C64D6F83608AAE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				484BF8AD73C54804A1A4CA6F /* BodoniModaSC_72pt-Black.ttf */,
+				E2C24EB8CE4040BF83EAFC25 /* BodoniModaSC_72pt-BlackItalic.ttf */,
+				9D530ABDC2564698B1EE0707 /* BodoniModaSC_72pt-Bold.ttf */,
+				E1CEA1A7A4314947BD59915F /* BodoniModaSC_72pt-BoldItalic.ttf */,
+				9452DC8B275A4426AE112740 /* BodoniModaSC_72pt-ExtraBold.ttf */,
+				FFF862F74E7348B8861C61BD /* BodoniModaSC_72pt-ExtraBoldItalic.ttf */,
+				83B9D189F4AA4051B28A83EA /* BodoniModaSC_72pt-Italic.ttf */,
+				2E1AA0DFECA64811B460D965 /* BodoniModaSC_72pt-Medium.ttf */,
+				C50F9E6B013342EEB4D76F97 /* BodoniModaSC_72pt-MediumItalic.ttf */,
+				7A86C49955BC434C9DC2AEB5 /* BodoniModaSC_72pt-Regular.ttf */,
+				70467C5B77864120BB7F36A2 /* BodoniModaSC_72pt-SemiBold.ttf */,
+				1D8A8311407B44068D19CFC0 /* BodoniModaSC_72pt-SemiBoldItalic.ttf */,
+				788EA7E279CC4CABBCCBD298 /* Lora-Bold.ttf */,
+				475E85EFB1EA412AB4904D55 /* Lora-BoldItalic.ttf */,
+				13D49D345BF343C590EA5566 /* Lora-Italic.ttf */,
+				FB5795C01D904F9DA464BFDC /* Lora-Medium.ttf */,
+				74403E01C2B44C2C9AF0651D /* Lora-MediumItalic.ttf */,
+				CFCA33CDA4FE49D998CA6808 /* Lora-Regular.ttf */,
+				F937A6101C2B4B479C57F144 /* Lora-SemiBold.ttf */,
+				75200349390C4FF59E82CD2E /* Lora-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -249,6 +318,26 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				9AFA94969DFF16994704116B /* PrivacyInfo.xcprivacy in Resources */,
+				A0E45486E0194D3BB1D2274A /* BodoniModaSC_72pt-Black.ttf in Resources */,
+				2F41853D575B4F388F133F25 /* BodoniModaSC_72pt-BlackItalic.ttf in Resources */,
+				CC3A84C17FCD446EA98FAD1D /* BodoniModaSC_72pt-Bold.ttf in Resources */,
+				BACC224A3C094F03BBCDFC93 /* BodoniModaSC_72pt-BoldItalic.ttf in Resources */,
+				16D11FD224DC49D98BB39994 /* BodoniModaSC_72pt-ExtraBold.ttf in Resources */,
+				AF7C10CEE9BA4A42B37DA68D /* BodoniModaSC_72pt-ExtraBoldItalic.ttf in Resources */,
+				664DA3FF0AA14B979A833DED /* BodoniModaSC_72pt-Italic.ttf in Resources */,
+				8A5DFA55D47E41768D7B3B8C /* BodoniModaSC_72pt-Medium.ttf in Resources */,
+				8C9DEC8D19414CFFACEA9745 /* BodoniModaSC_72pt-MediumItalic.ttf in Resources */,
+				F2C399D845D04D248307AA52 /* BodoniModaSC_72pt-Regular.ttf in Resources */,
+				4977E2D2436B45BF8A3A51C9 /* BodoniModaSC_72pt-SemiBold.ttf in Resources */,
+				5BDEFA211A88471FA9C7C9B9 /* BodoniModaSC_72pt-SemiBoldItalic.ttf in Resources */,
+				E2D01E1A384D4B0396FA9049 /* Lora-Bold.ttf in Resources */,
+				A27F0C8040D64484AF892F73 /* Lora-BoldItalic.ttf in Resources */,
+				164C89D5FC7F45D98AC2A27D /* Lora-Italic.ttf in Resources */,
+				B9271647DDCE457FBABA87AB /* Lora-Medium.ttf in Resources */,
+				92C10690BB364DF5857C40EE /* Lora-MediumItalic.ttf in Resources */,
+				CCD8B751F42B44789B0B845A /* Lora-Regular.ttf in Resources */,
+				3577C3F26D7F44779813535B /* Lora-SemiBold.ttf in Resources */,
+				EBC07FB4A8774A079852F0EF /* Lora-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
