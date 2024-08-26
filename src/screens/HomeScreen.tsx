@@ -3,15 +3,15 @@ import { memo } from 'react';
 import { Text, View, Button, StyleSheet } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
+import { RootNavigationProp } from '../navigation/types';
 
 const HomeScreen = () => {
-  const navigation = useNavigation();
+  const navigation = useNavigation<RootNavigationProp>();
 
   const handleLogout = async () => {
     try {
       // Remove the user token
       await AsyncStorage.removeItem('userToken');
-      
       // Navigate back to the main screen, which should now show the login screen
       navigation.reset({
         index: 0,

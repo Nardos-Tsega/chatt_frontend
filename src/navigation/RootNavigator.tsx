@@ -1,16 +1,15 @@
 import React, { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { memo, useState } from 'react';
-import AuthNavigator from './AuthNavigator';
 import OnboardingScreen from '../screens/OnboardingScreen';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import MainNavigator from './MainNavigator';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { RootStackParamList } from './types';
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 const RootNavigator = () => {
-  const [isLoading, setIsLoading] = useState<boolean>(true);
   const [isFirstLaunch, setIsFirstLaunch] = useState<boolean | null>(null);
 
   useEffect(()  => {

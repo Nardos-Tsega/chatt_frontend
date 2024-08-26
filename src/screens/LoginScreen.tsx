@@ -6,7 +6,7 @@ import { Button, StyleSheet, Text, View } from 'react-native';
 
 const LoginScreen = () => {
 
-  const navigation = useNavigation();
+  const navigation = useNavigation<any>();
 
   const handleCreateAccount = () => {
     navigation.navigate('Register');

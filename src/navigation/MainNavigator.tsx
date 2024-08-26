@@ -3,12 +3,13 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { memo } from 'react';
 import HomeScreen from '../screens/HomeScreen';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import LoginScreen from '../screens/LoginScreen';
 import AuthNavigator from './AuthNavigator';
+import { MainStackParamList } from './types';
 
-const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator<MainStackParamList>();
 
 const MainNavigator = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
 

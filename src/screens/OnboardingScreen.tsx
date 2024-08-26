@@ -4,6 +4,7 @@ import Onboarding from 'react-native-onboarding-swiper';
 import Colors from '../constants/Colors';
 import { fontFamilies } from '../utils/fontFamilies';
 import { useNavigation } from '@react-navigation/native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const OnboardingScreen = () => {
   const navigation = useNavigation();
@@ -13,13 +14,13 @@ const OnboardingScreen = () => {
       await AsyncStorage.setItem('hasLaunched', 'true');
       navigation.reset({
         index: 0,
-        routes: [{ name: 'Main' }],
+        routes: [{name: 'Main' }],
       });
     } catch (error) {
       console.log('Error @handleDone: ', error);
     }
   };
-  
+
   return (
     <Onboarding
       pages={[
