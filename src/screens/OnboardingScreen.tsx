@@ -14,7 +14,7 @@ const OnboardingScreen = () => {
       await AsyncStorage.setItem('hasLaunched', 'true');
       navigation.reset({
         index: 0,
-        routes: [{name: 'Main' }],
+        routes: [{ name: 'Auth' }], // Navigate to AuthNavigator after onboarding
       });
     } catch (error) {
       console.log('Error @handleDone: ', error);

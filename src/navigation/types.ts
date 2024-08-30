@@ -14,6 +14,7 @@ export type MainStackParamList = {
 export type RootStackParamList = {
   Onboarding: undefined;
   Main: undefined;
+  Auth: undefined;
 };
 
 export type AuthNavigationProp = NativeStackNavigationProp<AuthStackParamList>;

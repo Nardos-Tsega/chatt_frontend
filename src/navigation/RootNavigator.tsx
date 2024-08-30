@@ -6,6 +6,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import MainNavigator from './MainNavigator';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { RootStackParamList } from './types';
+import AuthNavigator from './AuthNavigator';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -39,7 +40,10 @@ const RootNavigator = () => {
     <NavigationContainer>
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       {isFirstLaunch ? (
-        <Stack.Screen name="Onboarding" component={OnboardingScreen} />
+        <>
+          <Stack.Screen name="Onboarding" component={OnboardingScreen} />
+          <Stack.Screen name="Auth" component={AuthNavigator} />
+        </>
       ) : (
       <Stack.Screen name="Main" component={MainNavigator} />
      )}
