@@ -5,5 +5,7 @@ export default {
   white: '#fff',
   accent: '#272643',
   black: '#000',
-  border: '#2E2E30'
+  border: '#2E2E30',
+  whiteWithHintOfGrey: '#dedede',
+  red: 'red',
 };

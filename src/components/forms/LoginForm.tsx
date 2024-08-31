@@ -1,21 +1,20 @@
-/* eslint-disable quotes */
 import React, { memo } from 'react';
-import { StyleSheet, Text, TextInput, View } from 'react-native';
+import { StyleSheet, TextInput, View } from 'react-native';
 import CustomButton from '../shared/CustomButton';
 import { Formik } from 'formik';
 import Colors from '../../constants/Colors';
 import { loginValidationSchema } from '../../validation/loginValidationSchema';
+import CustomText from '../shared/CustomText';
 
 const LoginForm = (props:any) => {
   const {handleLogin} = props;
   return (
     <View style={styles.container}>
-      <Text>Hello</Text>
       <Formik
         validationSchema={loginValidationSchema}
         initialValues={{email: '', password: ''}}
-        // onSubmit={handleLogin}
-        onSubmit={(values) => console.log(values)}
+        onSubmit={handleLogin}
+        // onSubmit={(values) => console.log(values)}
       >
         {
           ({handleChange, handleBlur, handleSubmit, values, errors, isValid,touched}) => (
@@ -28,10 +27,10 @@ const LoginForm = (props:any) => {
                 onBlur={handleBlur('email')}
                 value={values.email}
                 placeholderTextColor={Colors.border}
-                keyboardType={"email-address"}
+                keyboardType={'email-address'}
                />
                 {(errors.email && touched.email) &&
-                  <Text style={styles.error}>{errors.email}</Text>
+                  <CustomText variant={'caption'} style={styles.error}>{errors.email}</CustomText>
                 }
                 <TextInput
                   id="password"
@@ -44,7 +43,7 @@ const LoginForm = (props:any) => {
                   secureTextEntry
                 />
                 {(errors.password && touched.password) &&
-                  <Text style={styles.error}>{errors.password}</Text>
+                  <CustomText variant={'caption'} style={styles.error}>{errors.password}</CustomText>
                 }
               <CustomButton disabled={!isValid} style={styles.buttonStyle} title="Login" onPress={handleSubmit}/>
             </>
@@ -78,5 +77,8 @@ const styles = StyleSheet.create({
     padding: 12,
     color: Colors.white,
   },
-  error: { fontSize: 10, color: 'red' },
+  error: {
+    fontSize: 10,
+    color: Colors.red,
+  },
 });
